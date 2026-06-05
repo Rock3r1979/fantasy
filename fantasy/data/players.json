@@ -1,0 +1,23 @@
+{
+  "players": [
+    {
+      "id": "messi",
+      "name": "Lionel Messi",
+      "teamId": "arg",
+      "position": "FW",
+      "age": 38,
+      "number": 10,
+      "estimatedStarter": true,
+      "goalProbability": 0.65,
+      "assistProbability": 0.55,
+      "roundAdvanceProbability": 75,
+      "fantasyValue": 12.5,
+      "fantasyPoints": 285,
+      "stats": {
+        "goals": 108,
+        "assists": 55,
+        "apps": 180
+      }
+    }
+  ]
+}
