@@ -1,5 +1,0 @@
-@import url('https://api.fontshare.com/v2/css?f[]=satoshi@400,500,700&f[]=cabinet-grotesk@500,700&display=swap');
-@tailwind base;
-@tailwind components;
-@tailwind utilities;
-body{margin:0;min-height:100vh;background:#f7f6f2;color:#28251d;font-family:'Satoshi',sans-serif}a{text-decoration:none;color:inherit}.container-shell{@apply mx-auto w-full max-w-7xl px-4 sm:px-6 lg:px-8}.card{@apply rounded-2xl border border-border bg-surface shadow-soft}.metric{@apply rounded-xl border border-border bg-panel p-4}.badge-soft{@apply inline-flex items-center rounded-full bg-primary/10 px-3 py-1 text-xs font-medium text-primary}.table-wrap{@apply overflow-x-auto rounded-2xl border border-border bg-surface}

@@ -1,5 +1,0 @@
-import { SiteLayout } from "@/components/layout";
-import { SectionTitle } from "@/components/section-title";
-import { TeamCard } from "@/components/team-card";
-import { allGroups, allTeams } from "@/lib/data";
-export default function SeleccionesPage() { return <SiteLayout><section className="container-shell py-12"><SectionTitle eyebrow="Selecciones" title="Análisis por grupos del Mundial" description="Cada tarjeta muestra fuerza estimada, probabilidad de clasificación y una referencia rápida del bloque titular." /><div className="space-y-10">{allGroups.map((group) => { const teams = allTeams.filter((team) => group.teams.includes(team.id)); return <section key={group.id}><div className="mb-5 flex items-center justify-between"><h3 className="text-2xl font-bold">{group.name}</h3><span className="badge-soft">{teams.length} selecciones</span></div><div className="grid gap-5 lg:grid-cols-2">{teams.map((team) => <TeamCard key={team.id} team={team} />)}</div></section>; })}</div></section></SiteLayout>; }
