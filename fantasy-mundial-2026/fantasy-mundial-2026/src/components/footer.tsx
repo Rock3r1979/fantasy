@@ -1,0 +1,1 @@
+export function Footer(){return <footer className="border-t border-border py-10"><div className="container-shell flex flex-col gap-2 text-sm text-muted md:flex-row md:items-center md:justify-between"><p>Fantasy Mundial 2026 · MVP estático listo para GitHub y Vercel.</p><p>Datos demo en JSON · Next.js 15 · TypeScript · Tailwind CSS.</p></div></footer>}

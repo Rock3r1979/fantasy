@@ -1,0 +1,10 @@
+import players from "../../data/players.json";
+import teams from "../../data/teams.json";
+import groups from "../../data/groups.json";
+import rankings from "../../data/rankings.json";
+import type { Group, Player, RankingEntry, Team } from "@/types";
+export const allPlayers = players as Player[];
+export const allTeams = teams as Team[];
+export const allGroups = groups as Group[];
+export const allRankings = rankings as RankingEntry[];
+export const getPlayersByTeam = (teamId: string) => allPlayers.filter((player) => player.teamId === teamId);

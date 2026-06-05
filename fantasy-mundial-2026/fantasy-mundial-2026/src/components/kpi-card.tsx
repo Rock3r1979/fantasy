@@ -1,0 +1,1 @@
+export function KpiCard({ label, value, hint }: { label: string; value: string; hint: string }) { return <div className="metric"><p className="text-sm text-muted">{label}</p><p className="mt-2 text-3xl font-bold tracking-tight">{value}</p><p className="mt-2 text-sm text-muted">{hint}</p></div>; }
