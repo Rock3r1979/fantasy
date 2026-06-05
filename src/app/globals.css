@@ -1,0 +1,32 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+html {
+  scroll-behavior: smooth;
+}
+
+body {
+  background: linear-gradient(180deg, #fff 0%, #faf7f5 100%);
+  color: #1e1a18;
+}
+
+.wrap {
+  @apply mx-auto max-w-7xl px-4 sm:px-6 lg:px-8;
+}
+
+.card {
+  @apply rounded-3xl border border-line bg-white/90 shadow-sm;
+}
+
+.btn {
+  @apply inline-flex items-center rounded-full bg-accent px-5 py-3 text-sm font-semibold text-white transition hover:opacity-90;
+}
+
+.btn-alt {
+  @apply inline-flex items-center rounded-full border border-line bg-white px-5 py-3 text-sm font-semibold text-fg;
+}
+
+.badge {
+  @apply inline-flex rounded-full bg-accent2 px-3 py-1 text-xs font-semibold text-accent;
+}
