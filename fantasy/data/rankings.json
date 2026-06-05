@@ -1,0 +1,12 @@
+{
+  "globalRanking": [
+    {"playerId": "messi", "rank": 1, "fantasyPoints": 285},
+    {"playerId": "mbappe", "rank": 2, "fantasyPoints": 272}
+  ],
+  "positionRanking": {
+    "GK": [{"playerId": "courtois", "fantasyPoints": 180}],
+    "DEF": [{"playerId": "marcelo", "fantasyPoints": 155}],
+    "MID": [{"playerId": "modric", "fantasyPoints": 210}],
+    "FW": [{"playerId": "messi", "fantasyPoints": 285}]
+  }
+}
